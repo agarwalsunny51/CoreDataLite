@@ -1,0 +1,1 @@
+../../../../../lib/classes/CoreDataManager.h

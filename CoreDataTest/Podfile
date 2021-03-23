@@ -1,8 +1,6 @@
 # Uncomment this line to define a global platform for your project
 # platform :ios, '6.0'
 
-source 'git@github.com:Flipkart/fk-private-cocoapods.git'
-source 'https://github.com/CocoaPods/Specs.git'
 
 target 'CoreDataTest' do
     pod 'CoreDataLite', :path => "../CoreDataLite.podspec"
