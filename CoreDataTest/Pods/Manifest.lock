@@ -1,0 +1,16 @@
+PODS:
+  - CoreDataLite (1.1)
+
+DEPENDENCIES:
+  - CoreDataLite (from `../CoreDataLite.podspec`)
+
+EXTERNAL SOURCES:
+  CoreDataLite:
+    :path: "../CoreDataLite.podspec"
+
+SPEC CHECKSUMS:
+  CoreDataLite: 7f654acfac69145c18b8e661e39591f8455ebe35
+
+PODFILE CHECKSUM: c4b185ab8e37e744e58f2dbf6ecb07719fac0f35
+
+COCOAPODS: 1.10.1

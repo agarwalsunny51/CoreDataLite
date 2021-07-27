@@ -10,10 +10,8 @@
 		115F0773A98233DB17B6FF64 /* libPods-CoreDataTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EC0BE61B64A204BA1BEF8F9 /* libPods-CoreDataTest.a */; };
 		BF3ADAC41B830BC3009772D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3ADAC31B830BC3009772D1 /* main.m */; };
 		BF3ADAC71B830BC3009772D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3ADAC61B830BC3009772D1 /* AppDelegate.m */; };
-		BF3ADACA1B830BC3009772D1 /* CoreDataTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF3ADAC81B830BC3009772D1 /* CoreDataTest.xcdatamodeld */; };
 		BF3ADACD1B830BC3009772D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3ADACC1B830BC3009772D1 /* ViewController.m */; };
 		BF3ADAD01B830BC3009772D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF3ADACE1B830BC3009772D1 /* Main.storyboard */; };
-		BF3ADAD21B830BC3009772D1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF3ADAD11B830BC3009772D1 /* Images.xcassets */; };
 		BF3ADAD51B830BC3009772D1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF3ADAD31B830BC3009772D1 /* LaunchScreen.xib */; };
 		BF3ADAE11B830BC3009772D1 /* CoreDataTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3ADAE01B830BC3009772D1 /* CoreDataTestTests.m */; };
 		E60C86FA65D9140B569C276D /* libPods-CoreDataTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B73D5227DF93BDCB895985F /* libPods-CoreDataTestTests.a */; };
@@ -41,11 +39,9 @@
 		BF3ADAC31B830BC3009772D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BF3ADAC51B830BC3009772D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BF3ADAC61B830BC3009772D1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BF3ADAC91B830BC3009772D1 /* CoreDataTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataTest.xcdatamodel; sourceTree = "<group>"; };
 		BF3ADACB1B830BC3009772D1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BF3ADACC1B830BC3009772D1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BF3ADACF1B830BC3009772D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BF3ADAD11B830BC3009772D1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BF3ADAD41B830BC3009772D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BF3ADADA1B830BC3009772D1 /* CoreDataTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF3ADADF1B830BC3009772D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -120,9 +116,7 @@
 				BF3ADACB1B830BC3009772D1 /* ViewController.h */,
 				BF3ADACC1B830BC3009772D1 /* ViewController.m */,
 				BF3ADACE1B830BC3009772D1 /* Main.storyboard */,
-				BF3ADAD11B830BC3009772D1 /* Images.xcassets */,
 				BF3ADAD31B830BC3009772D1 /* LaunchScreen.xib */,
-				BF3ADAC81B830BC3009772D1 /* CoreDataTest.xcdatamodeld */,
 				BF3ADAC11B830BC3009772D1 /* Supporting Files */,
 			);
 			path = CoreDataTest;
@@ -241,7 +235,6 @@
 			files = (
 				BF3ADAD01B830BC3009772D1 /* Main.storyboard in Resources */,
 				BF3ADAD51B830BC3009772D1 /* LaunchScreen.xib in Resources */,
-				BF3ADAD21B830BC3009772D1 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,7 +330,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF3ADAC71B830BC3009772D1 /* AppDelegate.m in Sources */,
-				BF3ADACA1B830BC3009772D1 /* CoreDataTest.xcdatamodeld in Sources */,
 				BF3ADACD1B830BC3009772D1 /* ViewController.m in Sources */,
 				BF3ADAC41B830BC3009772D1 /* main.m in Sources */,
 			);
@@ -550,19 +542,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		BF3ADAC81B830BC3009772D1 /* CoreDataTest.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				BF3ADAC91B830BC3009772D1 /* CoreDataTest.xcdatamodel */,
-			);
-			currentVersion = BF3ADAC91B830BC3009772D1 /* CoreDataTest.xcdatamodel */;
-			path = CoreDataTest.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = BF3ADAB61B830BC3009772D1 /* Project object */;
 }
