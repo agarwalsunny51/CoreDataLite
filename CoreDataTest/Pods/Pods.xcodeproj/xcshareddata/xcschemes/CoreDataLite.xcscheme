@@ -17,7 +17,7 @@
                BlueprintIdentifier = "ADED3C6BD82F07BC36AF61838894E130"
                BuildableName = "libCoreDataLite.a"
                BlueprintName = "CoreDataLite"
-               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
